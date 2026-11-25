@@ -1,0 +1,164 @@
+/* Мои цвета:
+   #F8F3F3 — светлый фон с оттенком бордового
+   #E9E7EB — светло-серебристый для карточек
+   #B9AEBB — средний серо-фиолетовый для рамок и деталей
+   #6F3D55 — приглушённый бордовый акцент для кнопок и выделений
+   #29232D — почти чёрный фиолетовый для текста
+   #3D405B - заголовки
+*/
+body {
+   margin: 15px;
+   background-color: #F5E8EC;
+   color: #29232D;
+   font-family: "Manrope", sans-serif;
+   font-size: 18px;
+   line-height: 22px;
+}
+
+.head_text {
+   font-family: "Playfair Display", serif;
+   margin-bottom: 20px;
+}
+
+
+.card-info {
+   margin-left: 40px;
+}
+
+h1, h2, h3 {
+   color: #343A73;
+}
+
+h1 {
+   font-size: 50px;
+   line-height: 45px;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 25px;
+}
+
+h2 {
+   font-size: 35px;
+   margin: 10px;
+}
+
+h3 {
+   font-size: 25px;
+   margin: 15px;
+   margin-left: 20px;
+}
+
+.accent {
+   color:#6F3D55;
+}
+
+.logo {
+   font-size: 30px;
+   text-align: center;
+   font-family: "Playfair Display", serif;
+   margin-bottom: 7px;
+   margin-top: 10px;
+}
+
+p{
+   margin-left: 20px;
+   margin-bottom: 10px;
+}
+
+.menu {
+   text-align: center;
+   margin-left: 40px;
+}
+
+.hero-label {
+   text-align: center;
+   margin-top: 10px;
+}
+
+a{
+   text-decoration: none;
+}
+
+.site-header {
+   padding: 20px 20px 0px 20px;
+   
+}
+
+.menu a {
+   color:#343A73;
+}
+
+.button {
+   display: inline-block;
+   background-color: #6F3D55;
+   padding: 10px;
+   color: #F5E8EC;
+   border-radius: 8px;
+   margin-left: 15px;
+}
+
+.button-outline {
+   display:inline-block;
+   border: 4px solid #6F3D55;
+   background-color: #F5E8EC;
+   color: #6F3D55;
+   
+}
+
+.card {
+   box-sizing: border-box;
+   width: 700px;
+   padding: 20px;
+   border: 8px solid #6F3D55;
+   background-color: #F1E4E8;
+   margin: 10px;
+   border-radius: 15px;
+}
+
+.card-icon {
+   font-size: 40px;
+}
+
+.time {
+   font-weight: 800;
+}
+
+/* Серые и серебристые оттенки
+#F5F3F5   светлый серый
+#E9E7EB  серебристый 
+#B9AEBB   серо-лиловый 
+#918895   средний серый 
+#625B65   тёмный серый 
+
+Бордовые оттенки 
+#F1E4E8  светлый розово-бордовый 
+#D9C2CB  пыльная роза 
+#A7778A  приглушённый бордовый 
+#6F3D55  бордовый акцент
+#4D293B  тёмный бордовый */
+
+.hero, .places, .tips {
+   padding: 5px 20px;
+}
+
+#moin {
+   text-align: center;
+}
+
+.note {
+   background-color:#D9C2CB;
+   display: inline-block;
+   padding-left: 5px;
+   border-left: 7px solid #6F3D55;
+}
+
+.site-footer {
+   background-color: #B9AEBB;
+   color: #000;
+   text-align: center;
+}
+
+.card-top {
+   background-color:#D9C2CB;
+   border-color: #343A73;
+}
